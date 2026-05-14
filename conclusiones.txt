@@ -1,0 +1,18 @@
+CONCLUSIONES DEL EJERCICIO:
+
+1. Se logró automatizar correctamente el flujo solicitado utilizando Karate Framework.
+2. La API Swagger PetStore permitió realizar operaciones de creación, consulta y actualización de mascotas mediante servicios REST.
+3. Se implementó un flujo E2E reutilizando variables dinámicas para mantener la relación entre las diferentes peticiones realizadas.
+4. Se validaron correctamente:
+   - Códigos de respuesta HTTP
+   - Contenido del response body
+   - Persistencia de información entre operaciones
+5. Se utilizó un ID dinámico generado mediante timestamp para evitar conflictos con registros previamente existentes en la API.
+6. Karate Framework permitió construir pruebas REST de forma simple, legible y mantenible gracias al uso de archivos .feature.
+7. Maven facilitó la administración de dependencias y la ejecución automatizada de los escenarios de prueba.
+8. Los reportes HTML generados automáticamente por Karate permiten visualizar:
+   - Resultados de ejecución
+   - Tiempos de respuesta
+   - Requestsg
+   - Responses
+   - Validaciones realizadas
