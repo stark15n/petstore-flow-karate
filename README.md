@@ -35,11 +35,11 @@ Antes de ejecutar el proyecto validar:
 # Clonar el repositorio
 
 ```bash
-git clone https://github.com/stark15n/petstore-karate.git
+git clone https://github.com/stark15n/petstore-flow-karate.git
 ```
 Ingresar al proyecto
 ```bash
-cd petstore-karate
+cd petstore-flow-karate
 ```
 ---
 # Ejecución del proyecto
